@@ -10,6 +10,27 @@ This project investigates the factors influencing airline ticket prices using st
 ## Tools Used
 - Python (Pandas, Matplotlib, statsmodels)
 - Tableau
+## Dataset Description
+
+This project uses a structured airline dataset to analyze factors influencing flight ticket prices. The dataset contains **numerical** and operational features that directly or indirectly impact flight pricing.
+
+---
+
+### Features Overview
+
+| **Feature**              | **Description**                                     | **Type**         |
+|--------------------------|----------------------------------------------------|------------------|
+| `FlightID`              | Unique identifier for each flight.                 | Integer          |
+| `Distance`              | Distance of the flight in miles.                   | Float            |
+| `DateOfFlight`          | Date of the flight.                                | Date             |
+| `FlightDuration`        | Duration of the flight in hours.                   | Float            |
+| `AdvanceBookingDays`    | Days the ticket was booked in advance.             | Integer          |
+| `LuggageAllowance`      | Luggage allowance in kilograms.                    | Integer          |
+| `FuelSurcharge`         | Fuel surcharge in USD.                             | Float            |
+| `FlightPrice`           | Price of the flight ticket in USD. (**Target**)    | Float            |
+
+
+
 
 ## Methods
 - Exploratory Data Analysis
